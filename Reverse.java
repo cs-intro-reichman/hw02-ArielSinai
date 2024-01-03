@@ -19,7 +19,7 @@ public class Reverse {
 			double middle1= lenght/2;
 			int middle= (int)Math.floor(middle1);
 			System.out.println();
-			System.out.println("the middle charecter is " + s.charAt(middle));
+			System.out.println("The middle charecter is " + s.charAt(middle));
 		}
 		
 	}
