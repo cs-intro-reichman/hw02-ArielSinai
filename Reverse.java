@@ -9,7 +9,7 @@ public class Reverse {
 		String s= args[0];
         int lenght= s.length();
 	    for(int i=lenght-1; i>=0; i--) {
-			System.out.println(s.charAt(i));
+			System.out.print(s.charAt(i));
 			
 		}
 		if(lenght%2==0) {
