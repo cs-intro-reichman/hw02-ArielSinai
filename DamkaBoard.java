@@ -3,19 +3,17 @@
  */
 public class DamkaBoard {
 	public static void main(String[] args) {
-		int lines= Integer.parseInt(args[0]);
-		String star="";
+		int n = Integer.parseInt(args[0]);
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (i % 2 == 0) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print(" *");
+				}
+			}
+		}
 
-		for(int i=1 ; i<=lines ; i++) {
-			star= star + "* ";
-		}
-		for(int j=1 ; j<=lines ; j++) {
-			if(j%2==0){
-                System.out.println(" " + star);
-			}
-			else{
-				System.out.println(star);
-			}
-		}
 	}
 }
