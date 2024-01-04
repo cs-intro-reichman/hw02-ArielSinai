@@ -15,7 +15,7 @@ public class Reverse {
 		System.out.println();
 
 		if(lenght%2==0) {
-			int middle= lenght/2;
+			int middle= (lenght/2) - 1;
 			System.out.println("The middle character is " + s.charAt(middle));
 		} else{
 			double middle1= lenght/2;
