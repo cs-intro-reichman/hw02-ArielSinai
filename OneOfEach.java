@@ -11,14 +11,12 @@ public class OneOfEach {
 			child= (Math.random());
 			if(child>0.5) {
 				boy= true;
-				children= children+1;
 				System.out.print("b "); }
-			if(child<0.5) {
+			else {
 				girl= true;
-				children= children+1;
 				System.out.print("g ");
 			}
-
+			children= children+1;
 			
 		} 
 		while(girl!=true || boy!=true);
